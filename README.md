@@ -1,4 +1,4 @@
-# Convays *Game of Life* using R
+# Convays *GameR of Life* using R
 
 ![Game of Life Plot (dimension 100 x 100)](game_of_life.png)
 
@@ -7,3 +7,4 @@ This is my first "program" using R. I didn't follow any [style guides](http://go
 Andreas Linz
 klingt.net@googlemail.com
 2013
+
