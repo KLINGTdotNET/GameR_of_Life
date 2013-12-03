@@ -1,4 +1,4 @@
-# Convays *GameR of Life* using R
+# Convays *Game(R) of Life* using R
 
 ![Game of Life Plot (dimension 100 x 100)](game_of_life.png)
 
