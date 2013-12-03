@@ -3,7 +3,7 @@ living_neighbours <- function(board, row, col) {
   return(sum(board[max(row-1, 1):min(row+1, nrow(board)), max(col-1, 1):min(col+1, ncol(board))]) - board[row,col])
 }
 
-update<-function(board, new_board) {
+update <- function(board, new_board) {
   for(row in 1:nrow(board)) {
     for(col in 1:ncol(board)) {
       lives <- living_neighbours(board, row, col)
@@ -39,7 +39,7 @@ go <- function(iterations=10, rows=10, cols=10, start_population=0.6) {
 enter_values <- function() {
   usage <- "USAGE\n\tdimensions: x y\n\tf.e. dimensions: 10 15"
   print("dimensions: ")
-  dim<-scan()
+  dim <- scan()
   if (length(dim) != 2) {
     print("Too many dimensions!")
     cat(usage)  # cat() parses escape characters
